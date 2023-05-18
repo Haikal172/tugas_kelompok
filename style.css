@@ -1,5 +1,6 @@
 html {
     font-size: 50.5%;
+    box-sizing: border-box;
 }
 
 body {
