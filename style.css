@@ -5,7 +5,7 @@ html {
 
 body {
     background: linear-gradient(to right, #E0FFFF 0%, #E0FFFF 50%, #45d9fc 100%);
-    font-family: sacursive;
+    font-family: cursive;
     margin: 0;
     line-height: 1.5;
     display: flex;
