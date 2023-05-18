@@ -1,11 +1,6 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 html {
     font-size: 50.5%;
+    box-sizing: border-box;
 }
 
 body {
