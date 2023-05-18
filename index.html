@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>BIODATA</title>
 </head>
 <body>
-    
-    <h2>FORM BIODATA KELAS</h2>
+    <div class="wrapper">
 
-    <form action="">
-            <table>
+        <h2>BIODATA KELAS</h2>
+        <form action="" method="POST">
+            <table >
+                <tr>
+                    <td>Nis</td>
+                    <td>:</td>
+                    <td><input type="text" name="nis"></td>
+                </tr>
                 <tr>
                     <td>Nama</td>
                     <td>:</td>
-                    <td><input type="text"></td>
+                    <td><input type="text" name="nama"></td>
                 </tr>
                 <tr>
                     <td>Kelas</td>
                     <td>:</td>
                     <td>
-                        <select name="" id="">
+                        <select name="kelas" id="">
+                            <option hidden>Pilih Kelas</option>
                             <option value="">11 RPL 1</option>
                             <option value="">11 RPL 2</option>
                         </select>
@@ -30,10 +37,30 @@
                 <tr>
                     <td>Alamat</td>
                     <td>:</td>
-                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    <td>
+                        <textarea name="alamat" id="" cols="" rows="5"></textarea>
+                    </td>
                 </tr>
-                <td><button type="submit" name="kirim">Kirim</button></td>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <select name="" id="">
+                            <option hidden>Pilih Identitas Gender</option>
+                            <option name="jk" value="laki-laki">Laki - laki</option>
+                            <option name="jk" value=perempuan"">Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="submit" name="kirim">Kirim</button>
+                    </td>
+                </tr>
             </table>
-    </form>
+        </form>
+    </div>
 </body>
 </html>
